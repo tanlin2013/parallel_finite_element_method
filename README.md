@@ -2,7 +2,7 @@ This is an extensive 5-days winter school given by Prof. Kengo Nakajima, during 
 
 Docker
 ------
-Bould a Docker container with mpi installed.
+Build a Docker container with mpi installed.
 To use the scripts in this repo, 
 please mount the repo folder in `docker run` as follows. 
 ```
