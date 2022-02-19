@@ -189,7 +189,7 @@ void MAT_ASS_MAIN()
 	      COEFij+= coef*COND0*(PNXi*PNXj+PNYi*PNYj+PNZi*PNZj)*fabs(DETJ[ipn][jpn][kpn]);
 	      
 	      SHi= SHAPE[ipn][jpn][kpn][ie];
-	      QV0+= SHi * QVOL * coef;
+	      QV0+= SHi * QVOL * coef * fabs(DETJ[ipn][jpn][kpn]);
 	      
 	    }
 	  }
