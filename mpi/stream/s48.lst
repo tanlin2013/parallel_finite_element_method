@@ -1,0 +1,48 @@
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           48
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is   21972.7 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          207320.8   0.074319     0.074088     0.074541
+Scale:         194849.0   0.079173     0.078830     0.079717
+Add:           200539.4   0.115230     0.114890     0.115461
+Triad:         203030.4   0.113790     0.113481     0.114071
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           48
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is   21972.7 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          208662.7   0.074037     0.073612     0.074614
+Scale:         193867.7   0.079570     0.079229     0.079857
+Add:           200159.9   0.115329     0.115108     0.115624
+Triad:         202178.3   0.114180     0.113959     0.114393
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------

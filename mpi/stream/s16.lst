@@ -1,0 +1,96 @@
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           16
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is    7324.2 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          147892.1   0.034749     0.034620     0.034928
+Scale:         144542.3   0.035539     0.035422     0.035686
+Add:           158308.0   0.048682     0.048513     0.048991
+Triad:         160215.2   0.048093     0.047936     0.048566
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           16
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is    7324.2 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          147973.9   0.034737     0.034601     0.035077
+Scale:         144723.5   0.035538     0.035378     0.035887
+Add:           159328.5   0.048459     0.048202     0.048824
+Triad:         159995.9   0.048172     0.048001     0.048416
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           16
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is    7324.2 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          106267.6   0.048549     0.048180     0.048846
+Scale:         100937.1   0.051026     0.050725     0.051352
+Add:           103389.5   0.074455     0.074282     0.074711
+Triad:         104075.9   0.073987     0.073792     0.074188
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Number of processors =           16
+ Array size =   20000000
+ Offset     =          0
+ The total memory requirement is    7324.2 MB (    457.8MB/task)
+ You are running each test  10 times
+ --
+ The *best* time for each test is used
+ *EXCLUDING* the first and last iterations
+ ----------------------------------------------------
+ Your clock granularity appears to be less than one microsecond
+ Your clock granularity/precision appears to be      1 microseconds
+ ----------------------------------------------------
+Function     Rate (MB/s)  Avg time  Min time  Max time
+Copy:          106314.6   0.048336     0.048159     0.048628
+Scale:         101344.4   0.050855     0.050521     0.051036
+Add:           104315.1   0.073880     0.073623     0.074090
+Triad:         104414.0   0.073845     0.073553     0.074333
+ -----------------------------------------------
+ Solution Validates!
+ -----------------------------------------------
