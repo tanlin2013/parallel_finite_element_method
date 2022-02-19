@@ -1,0 +1,47 @@
+ NX,NY,NZ
+ GeoFEM gridfile name ?
+ --- node      100000
+ --- node      200000
+ --- node      300000
+ --- node      400000
+ --- node      500000
+ --- node      600000
+ --- node      700000
+ --- node      800000
+ --- node      900000
+ --- node     1000000
+ --- node     1100000
+ --- node     1200000
+ --- node     1300000
+ --- node     1400000
+ --- node     1500000
+ --- node     1600000
+ --- node     1700000
+ --- node     1800000
+ --- node     1900000
+ --- node     2000000
+ --- node     2100000
+ --- elem      100000
+ --- elem      200000
+ --- elem      300000
+ --- elem      400000
+ --- elem      500000
+ --- elem      600000
+ --- elem      700000
+ --- elem      800000
+ --- elem      900000
+ --- elem     1000000
+ --- elem     1100000
+ --- elem     1200000
+ --- elem     1300000
+ --- elem     1400000
+ --- elem     1500000
+ --- elem     1600000
+ --- elem     1700000
+ --- elem     1800000
+ --- elem     1900000
+ --- elem     2000000
+ --- Xmin
+ --- Ymin
+ --- Zmin
+ --- Zmax

@@ -1,0 +1,45 @@
+CC        = mpicc
+CFLAGS    = 
+OPTFLAGS  = -Os -noparallel
+
+TARGET    = ../run/sol
+
+.SUFFIXES:
+.SUFFIXES: .o .c 
+
+.c.o:
+	$(CC) -c -loglist $(CFLAGS) $(OPTFLAGS) $< -o $@
+
+OBJS = \
+	test1_p.o\
+	pfem_init.o\
+	input_cntl_p.o\
+	input_grid_p.o\
+	define_file_name.o\
+	mat_con0.o\
+	mat_con1.o\
+	mat_ass_main.o\
+	mat_ass_bc.o\
+	solve33_p.o\
+	solver_CG_3_p.o\
+	solver_SR_3.o\
+	recover_stress_p.o\
+	output_ucd_p.o\
+	pfem_finalize.o\
+	allocate.o\
+	util.o
+
+HEADERS = \
+	precision.h \
+	pfem_util.h \
+	allocate.h 
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS) 
+	$(CC) $(CFLAGS) $(OPTFLAGS) -o $@ $(OBJS) $(LDFLAGS)
+
+$(OBJS): $(HEADERS)
+
+clean:
+	rm -f *.o $(TARGET) *.log *~
