@@ -1,0 +1,25 @@
+initialize ppohVIS_PFEM3D, 3.455207e-07
+get control, 9.978453e-01
+set mesh (total), 8.524239e+00
+  calculate gravity, 1.071353e-03
+  set bounding box, 5.137151e-01
+  set edge, 6.309571e-01
+  set triangular surface, 3.496718e-01
+  set quadrilateral surface, 1.007914e+00
+  set free surface, 6.647673e-04
+  create initial voxel, 1.158162e-03
+  create voxel mesh, 6.019078e+00
+visualize (total), 2.994242e+00
+  set result to voxel, 9.371149e-02
+  inner visualize procedure, 2.899624e+00
+    refine, 1.527531e+00
+      set voxel values, 1.472947e-01
+      set voxel costs, 4.675183e-02
+      search max cost, 2.751451e-03
+      set child voxel, 1.329035e+00
+      reduce voxel count, 1.647260e-03
+    set voxel value, 5.272820e-02
+    set global voxel value, 7.535368e-04
+    set voxel coordinate list, 9.458037e-04
+    print UCD, 9.976423e-01
+finalize ppohVIS_PFEM3D, 2.407143e-05

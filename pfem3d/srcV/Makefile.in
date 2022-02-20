@@ -1,0 +1,49 @@
+# Install directory
+PREFIX      = /work/gt00/z30088/ppohVIS
+BINDIR      = $(PREFIX)/bin
+INCDIR      = $(PREFIX)/include
+LIBDIR      = $(PREFIX)/lib
+
+# TetGen directory
+TETGENDIR   = $(HOME)/usr/local/tetgen1.4.3
+TETINCDIR   = $(TETGENDIR)
+TETLIBDIR   = $(TETGENDIR)
+
+# C compiler settings
+CC          = mpiicc
+CFLAGS      = $(CINCDIR) $(COPTFLAGS)
+COPTFLAGS   = -O3 -axCORE-AVX512 -align -qopenmp
+CINCDIR     = -I. -I$(TETINCDIR)
+
+# C++ compiler settings
+CXX         = mpiicpc
+CXXFLAGS    = $(CXXINCDIR) $(CXXOPTFLAGS) -DTETGEN -DTETLIBRARY
+CXXOPTFLAGS = -O3 -axCORE-AVX512 -align
+CXXINCDIR   = -I. -I$(TETINCDIR)
+
+# Fortran 77 compiler settings
+FC          = mpiifort
+FFLAGS      = $(FINCDIR) $(FOPTFLAGS)
+FOPTFLAGS   = -O3 -axCORE-AVX512 -align array64byte -qopenmp
+FINCDIR     = -I.
+
+# Fortran 90 compiler settings
+F90         = mpiifort
+F90FLAGS    = $(F90INCDIR) $(F90OPTFLAGS)
+F90OPTFLAGS = -O3 -axCORE-AVX512 -align array64byte -qopenmp
+F90INCDIR   = -I.
+
+# Linker settings
+LD          = $(CC)
+LDFLAGS     = $(LIBS)
+#LIBS        = -L$(TETLIBDIR) -ltet -lm
+LIBS        = -L$(TETLIBDIR) -lm
+LDLIBDIR    =
+
+# Archiver settings
+AR          = ar rv
+
+# ETC
+CP          = cp -f
+RM          = rm -rf
+MKDIR       = mkdir -p
