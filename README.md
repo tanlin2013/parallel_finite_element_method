@@ -15,3 +15,7 @@ References
 
 1. http://nkl.cc.u-tokyo.ac.jp/NTU2022online
 2. https://sites.google.com/phys.ncts.ntu.edu.tw/mathphys/2022-hpc-nk
+
+Note
+----
+Access to obcx is open till the end of Mar 2022. Usage is bound by the purpose for this school only.
